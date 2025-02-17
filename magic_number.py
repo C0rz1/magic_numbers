@@ -1,3 +1,5 @@
+import os
+
 REWARDS = {
     "Chocolate bar": 10,
     "Cinema ticket": 30,
@@ -25,6 +27,6 @@ def outro():
     exit()
 
 def clear_screen():
-    pass
+    os.system("cls" if os.name == "nt" else "clear")
 
 main()
