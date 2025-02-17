@@ -16,7 +16,11 @@ PLAYER_NAME = None
 
 # entry point
 def main():
-    pass
+    intro()
+
+def get_player_name():
+    global PLAYER_NAME
+    PLAYER_NAME = input("What is your name?")
 
 def intro():
     clear_screen()
