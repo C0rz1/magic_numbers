@@ -5,3 +5,5 @@ REWARDS = {
     "Travel ticket": 100
 }
 
+MIN = 1
+MAX = 10
