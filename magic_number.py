@@ -19,10 +19,12 @@ def main():
     pass
 
 def intro():
+    clear_screen()
     print("="*25, "MAGIC NUMBER", "="*25)
     print("In this game you have to guess a number I'm thinking. The number must be between 1 and 10.")
 
 def outro():
+    clear_screen()
     print("See you later!")
     exit()
 
