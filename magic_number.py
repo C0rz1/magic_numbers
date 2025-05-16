@@ -17,6 +17,10 @@ PLAYER_NAME = None
 # entry point
 def main():
     intro()
+    get_player_name()
+
+def game_loop():
+    pass
 
 def get_player_name():
     global PLAYER_NAME
